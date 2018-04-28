@@ -1,6 +1,5 @@
-[]#!/usr/bin/env python
-# scripts/examples/simple_tcp_clie
-# nt.py
+#!/usr/bin/env python
+
 import socket
 
 from umodbus import conf
@@ -42,13 +41,15 @@ gateway_write_read(16,0x0C)
 gateway_write_read(17,0x0D)
 gateway_write_read(18,0x0E)
 gateway_write_read(19,0x0F)
+gateway_write_read(20,0x10)
+gateway_write_read(21,0x11)
 
 
 message = tcp.read_holding_registers(36, 82, 1)
 response = tcp.send_message(message, sock)
 print(response)
 
-for add in range(20,37):
+for add in range(22,37):
     gateway_write_read(add, 0x00)
 
 gateway_write_read(37,99)

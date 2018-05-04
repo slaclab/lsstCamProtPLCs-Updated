@@ -1,4 +1,4 @@
-from .plutoGateway import PlutoGateway
+from .pluto_gateway import PlutoGateway
 
 plutoGateway = PlutoGateway('192.168.1.100', 502)
 

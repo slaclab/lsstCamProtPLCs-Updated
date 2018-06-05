@@ -1,2 +1,4 @@
 # lsstCamProtPLCs
-LSST Camera Master and Vaccum Protection System code.
+LSST Camera Master Protection System PLCs code.
+
+https://confluence.slac.stanford.edu/display/LSSTCAM/Aux+Elex+Protection+page

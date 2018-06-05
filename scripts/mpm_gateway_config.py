@@ -6,6 +6,7 @@ import socket
 import time
 
 
+a = [0]*42
 
 class PlutoGateway():
 
@@ -30,6 +31,11 @@ class PlutoGateway():
 
         message = tcp.read_holding_registers(config_id, add, 1)
         response = tcp.send_message(message, self.sock)
+
+        print("..")
+
+        global a
+        a[add]=value
 
         if response[0] != value:
             raise ValueError("Value not writen!")
@@ -104,6 +110,7 @@ plutoGateway.gateway_config_write_read(41,0x001)
 
 print ("Done")
 
+print(a)
 
 
 plutoGateway.close()

@@ -46,7 +46,7 @@ class PlutoGateway():
 
 
 
-plutoGateway = PlutoGateway('192.168.1.100', 502)
+plutoGateway = PlutoGateway('192.168.1.132', 502)
 
 
 # Reset all registers to 0

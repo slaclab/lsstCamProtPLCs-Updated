@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9d038a-cc3b-46a4-a8ae-74e5dc3a4584" name="Default" comment="Updated MPM PLC mdbus adresses&#10;Updated config scripts">
-      <change beforePath="$PROJECT_DIR$/firmware/master_ps_01.sps" beforeDir="false" afterPath="$PROJECT_DIR$/firmware/master_ps_01.sps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firmware/vaccum_ps_01.sps" beforeDir="false" afterPath="$PROJECT_DIR$/firmware/vaccum_ps_01.sps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/mpm_gateway_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mpm_gateway_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/vaccum_gateway_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/vaccum_gateway_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,29 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lsstCamProtPLCs$mpm_gateway_config.coverage" NAME="mpm_gateway_config Coverage Results" MODIFIED="1527811099837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/lsstCamProtPLCs$mpm_gateway_config.coverage" NAME="mpm_gateway_config Coverage Results" MODIFIED="1528300663172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/lsstCamProtPLCs$vaccum_plc_config.coverage" NAME="vaccum_plc_config Coverage Results" MODIFIED="1524009733752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/lsstCamProtPLCs$plugin_exemplo.coverage" NAME="plugin exemplo Coverage Results" MODIFIED="1524281483255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/lsstCamProtPLCs$vaccum_gateway_config.coverage" NAME="vaccum_gateway_config Coverage Results" MODIFIED="1527812158463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vaccum_gateway_config.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pluto_gateway.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/pluto_gateway.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="323">
               <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -46,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mpm_gateway_config.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mpm_gateway_config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/mpm_gateway_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="190">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#2#26#0" expanded="true" />
               </folding>
@@ -126,8 +111,8 @@
         <option value="$PROJECT_DIR$/scripts/plutoGateway.py" />
         <option value="$PROJECT_DIR$/scripts/__init__.py" />
         <option value="$PROJECT_DIR$/firmware/master_ps_01.sps" />
-        <option value="$PROJECT_DIR$/scripts/mpm_gateway_config.py" />
         <option value="$PROJECT_DIR$/scripts/vaccum_gateway_config.py" />
+        <option value="$PROJECT_DIR$/scripts/mpm_gateway_config.py" />
       </list>
     </option>
   </component>
@@ -138,10 +123,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2552" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1576" />
+    <option name="x" value="32" />
+    <option name="width" value="1888" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -178,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lsstCamVacPLC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -200,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vaccum_gateway_config">
+  <component name="RunManager" selected="Python.mpm_gateway_config">
     <configuration name="mpm_gateway_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lsstCamProtPLCs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,8 +269,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vaccum_gateway_config" />
         <item itemvalue="Python.mpm_gateway_config" />
+        <item itemvalue="Python.vaccum_gateway_config" />
         <item itemvalue="Python.plugin exemplo" />
         <item itemvalue="Python.vaccum_plc_config" />
       </list>
@@ -363,16 +347,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="2576" height="1576" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1576" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32892907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3190883" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32614744" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10294118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17527822" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -391,24 +376,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10135135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32892907" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32905984" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,16 +418,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py">
+    <entry file="file://$PROJECT_DIR$/scripts/pluto_gateway.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="323">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mpm_gateway_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#2#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py" />
     <entry file="file://$PROJECT_DIR$/scripts/pluto_gateway.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -470,16 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py" />
     <entry file="file://$PROJECT_DIR$/scripts/pluto_gateway.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -504,16 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py" />
     <entry file="file://$PROJECT_DIR$/scripts/plugin exemplo.py" />
     <entry file="file://$PROJECT_DIR$/scripts/plugin exemplo.py" />
     <entry file="file://$PROJECT_DIR$/scripts/teste.ipynb" />
@@ -531,19 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/mpm_gateway_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#2#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py" />
     <entry file="file://$PROJECT_DIR$/scripts/pluto_gateway.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="323">
           <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -551,12 +520,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/vaccum_gateway_config.py">
+    <entry file="file://$PROJECT_DIR$/scripts/mpm_gateway_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        <state relative-caret-position="190">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

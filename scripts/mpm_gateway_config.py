@@ -1,12 +1,15 @@
-
+#
+# MPM Pluto Gateway configuration script
+#
+# SLAC National Accelerator Laboratory
+# Joao Rodrigues (joaoprod@slac.stanford.edu)
+#
 
 from umodbus import conf
 from umodbus.client import tcp
 import socket
 import time
 
-
-a = [0]*42
 
 class PlutoGateway():
 
@@ -16,9 +19,6 @@ class PlutoGateway():
 
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.connect((ip, port))
-
-
-
 
 
     def gateway_config_write_read(self,add, value):
@@ -34,15 +34,11 @@ class PlutoGateway():
 
         print("..")
 
-        global a
-        a[add]=value
-
         if response[0] != value:
             raise ValueError("Value not writen!")
 
     def close(self):
         self.sock.close()
-
 
 
 
@@ -97,10 +93,6 @@ plutoGateway.gateway_config_write_read(33,0x0309)
 plutoGateway.gateway_config_write_read(34,0x0364)
 
 
-
-
-
-
 # Data to Pluto Cycle time = 100 ms
 plutoGateway.gateway_config_write_read(37,100)
 
@@ -109,9 +101,6 @@ plutoGateway.gateway_config_write_read(41,0x001)
 
 
 print ("Done")
-
-print(a)
-
 
 plutoGateway.close()
 

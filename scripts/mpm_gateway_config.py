@@ -52,8 +52,8 @@ for add in range(0,41+1):
 # Activate Data to Pluto Area 0, 1 and 2
 plutoGateway.gateway_config_write_read(1,0b0111)
 
-# Data to Pluto Timeout = 1000 ms
-plutoGateway.gateway_config_write_read(2,1000)
+# Data to Pluto Timeout = 0 
+plutoGateway.gateway_config_write_read(2,0)
 
 # Additional Data Areas for PLC 1
 plutoGateway.gateway_config_write_read(5,0x0101)
